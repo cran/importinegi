@@ -203,7 +203,7 @@ hr {
 <body>
 <p>El paquete de R <code>importinegi</code> fue creado para facilitar la descarga y uso de las bases de datos publicas del INEGI. Entre otras ventajas, este paquete permite integrar múltiples bases de  datos con un identificador único en común, consolidar los datos en diferentes niveles de agregación (p. ej. vivienda, localidad, municipio o entidad federativa), o automatizar la codificación de valores perdidos en el sistema de R <code>NA</code>).</p>
 
-<p>La version <code>1.0.0</code> permite descargar y gestionar las bases de datos de los siguientes proyectos estadisticos del INEGI:</p>
+<p>La version <code>1.1.2</code> permite descargar y gestionar las bases de datos de los siguientes proyectos estadisticos del INEGI:</p>
 
 <ul>
 <li>Censo y Conteo de Poblacion y Vivienda</li>
@@ -243,16 +243,16 @@ catalogoINEGI = catalogo_inegi()
 <p>El objetivo de los parámetros lógicos es ofrecer flexibilidad al usuario en la descarga de los datos. Al manipular estos parámetros, el usuario puede limitar la descarga de datos a sólo uno de los niveles de gobierno o cualquier combinación de múltiples niveles de gobierno. En el siguiente bloque de código se presentan cuatro ejemplos de descarga de datos entre diversos niveles de gobierno.</p>
 
 <pre><code class="r"># Default: a nivel localidad, pero sin datos a nivel estado ni municipio
-censo.jalisco = censo_poblacion_iter(year = 2010, estado == &quot;Jalisco&quot;)
+censo.jalisco = censo_poblacion_iter(year = 2010, estado = &quot;Jalisco&quot;)
 
 # Datos a nivel estado, municipio y localidad
-censo.jalisco = censo_poblacion_iter(year = 2010, estado == &quot;Jalisco&quot;, totalestado = TRUE, totalmunicipio = TRUE)
+censo.jalisco = censo_poblacion_iter(year = 2010, estado = &quot;Jalisco&quot;, totalestado = TRUE, totalmunicipio = TRUE)
 
 # Datos a nivel estado y municipio, pero sin datos a nivel localidad
-censo.jalisco = censo_poblacion_iter(year = 2010, estado == &quot;Jalisco&quot;, totalestado = TRUE, totalmunicipio = TRUE, localidades = FALSE)
+censo.jalisco = censo_poblacion_iter(year = 2010, estado = &quot;Jalisco&quot;, totalestado = TRUE, totalmunicipio = TRUE, localidades = FALSE)
 
 # Datos a nivel nacional
-censo.jalisco = censo_poblacion_iter(year = 2010, estado == &quot;Nacional&quot;)
+censo.jalisco = censo_poblacion_iter(year = 2010, estado = &quot;Nacional&quot;)
 </code></pre>
 
 <p>Finalmente, en la muestra del Censo la unidad de análisis puede ser personas, viviendas o migrantes. Por lo tanto, además del año y el estado, un tercer parámetro requerido es <code>muestra</code>, que representa la unidad de análisis. Las unidades de análisis en este parámetro pueden ser <code>Migrantes</code>, <code>Personas</code>, <code>Viviendas</code> u <code>Hogar</code>. En el siguiente bloque de código se ilustra la descarga del cuestionario de personas para el Censo 2010 en el estado de Jalisco.</p>
