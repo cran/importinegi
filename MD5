@@ -1,7 +1,7 @@
-96485193318c3ae38bf70828340a3bdb *DESCRIPTION
+60d755c9007ed4847ed6c21e8a2aa930 *DESCRIPTION
 8c615c0134fe96c25ba620df5c1ec6c5 *NAMESPACE
 34faedee09a56ef2134d9b53fb4fd060 *NEWS.md
-0a2438f188b98f7f32070c65307a16e6 *R/catalogo_inegi.R
+cebf513a3918baea83c288c7a3e6f518 *R/catalogo_inegi.R
 e2e3abbfa2d2ae7ba3feb38210b2489b *R/censo_municipal.R
 14a57a6ade2dbd2f45a22bc79075af0c *R/censo_poblacion_ageb.R
 5afd0a556f2ec5931d0f2c3244b6c418 *R/censo_poblacion_iter.R
@@ -9,15 +9,15 @@ e2e3abbfa2d2ae7ba3feb38210b2489b *R/censo_municipal.R
 e785cf03c00bed22d57933b8413dceda *R/censo_poblacion_rural.R
 e722e9b9712d6c1c5e5bb728dcd80786 *R/censo_poblacion_urbano.R
 e0ba4d6742cf6eac8f54da10ac53baac *R/enigh_nuevaconstruccion.R
-f0b71fb813f1ade00fc340b0b61cfdaf *R/enoe.R
+2e051871d3e1b1416c9e41390a4fdde4 *R/enoe.R
 906b8f374d9c64bdb69cccd75e10bab0 *R/sig_caminos_descarga.R
 bb127cafd61486b69a009295df068fc5 *R/sig_caminos_extrae.R
 8038cfaf25b22d2cd82706ad88f75e1f *R/sig_marcogeo.R
-0b03304bb9d83bea142301122d6ccf4d *README.md
-d35b4d624aba3086b2f0c8f02124c42d *build/vignette.rds
-8018772e91f5a2f4e54bf363f1affa1d *inst/doc/importinegi.R
-89906b41264a77bfb4defae183a114b9 *inst/doc/importinegi.Rmd
-7131beb1a767c828d9f3494414fd9f8d *inst/doc/importinegi.html
+cb3354ad5f0a6bc9781e95205cd5bc94 *README.md
+691d819b7ce92750568519ab5f693252 *build/vignette.rds
+1de49bcc8ce24232f747b654c969b511 *inst/doc/importinegi.R
+9c30e87d5375f723c32f35d8d860133d *inst/doc/importinegi.Rmd
+4f58af5dd504530e8834d9ad7a711d14 *inst/doc/importinegi.html
 fc84c01bc3719b386a44ebe1f31ac608 *man/catalogo_inegi.Rd
 53459d7329c02d8820d781867fa1d2ef *man/censo_municipal.Rd
 c17e50c70802799367bfb93ef337ee11 *man/censo_poblacion_ageb.Rd
@@ -32,4 +32,4 @@ c9c4f5df5fd5f20656669b936cbdcfdc *man/enigh_nuevaconstruccion.Rd
 fa2fdd65d2f3e983b96c998a86e9a42e *man/sig_marcogeo.Rd
 e6568140e30eef6b7ec80a3461548140 *tests/testthat.R
 d34d57f82ae1e156fb594850d28fc2ff *tests/testthat/test-importinegi.R
-89906b41264a77bfb4defae183a114b9 *vignettes/importinegi.Rmd
+9c30e87d5375f723c32f35d8d860133d *vignettes/importinegi.Rmd

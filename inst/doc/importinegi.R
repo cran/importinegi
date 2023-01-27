@@ -14,16 +14,16 @@ knitr::opts_chunk$set(
 
 ## ---- eval = FALSE------------------------------------------------------------
 #  # Default: a nivel localidad, pero sin datos a nivel estado ni municipio
-#  censo.jalisco = censo_poblacion_iter(year = 2010, estado = "Jalisco")
+#  censo.jalisco  = censo_poblacion_iter(year = 2010, estado = "Jalisco")
 #  
 #  # Datos a nivel estado, municipio y localidad
-#  censo.jalisco = censo_poblacion_iter(year = 2010, estado = "Jalisco", totalestado = TRUE, totalmunicipio = TRUE)
+#  censo.jalisco  = censo_poblacion_iter(year = 2010, estado = "Jalisco", totalestado = TRUE, totalmunicipio = TRUE)
 #  
 #  # Datos a nivel estado y municipio, pero sin datos a nivel localidad
-#  censo.jalisco = censo_poblacion_iter(year = 2010, estado = "Jalisco", totalestado = TRUE, totalmunicipio = TRUE, localidades = FALSE)
+#  censo.jalisco  = censo_poblacion_iter(year = 2010, estado = "Jalisco", totalestado = TRUE, totalmunicipio = TRUE, localidades = FALSE)
 #  
 #  # Datos a nivel nacional
-#  censo.jalisco = censo_poblacion_iter(year = 2010, estado = "Nacional")
+#  censo.nacional = censo_poblacion_iter(year = 2010, estado = "Nacional")
 
 ## ---- eval = FALSE------------------------------------------------------------
 #  # Descarga cuestionario de personas
@@ -64,7 +64,7 @@ knitr::opts_chunk$set(
 
 ## ---- eval = FALSE------------------------------------------------------------
 #  # Identificar y extraer base de datos del cuestionario hogares
-#  dt.hog105 = dt.enoe05[[3]]
+#  dt.hog105 = lista.enoe05[[3]]
 
 ## ---- eval = FALSE------------------------------------------------------------
 #  # Descargar e integrar datos de la ENOE Trimestre I datos de la ENOE, integradas.
