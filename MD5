@@ -1,8 +1,8 @@
-60d755c9007ed4847ed6c21e8a2aa930 *DESCRIPTION
+5b9809da042a3a0ea5342ad98bc1ee96 *DESCRIPTION
 8c615c0134fe96c25ba620df5c1ec6c5 *NAMESPACE
 34faedee09a56ef2134d9b53fb4fd060 *NEWS.md
-cebf513a3918baea83c288c7a3e6f518 *R/catalogo_inegi.R
-e2e3abbfa2d2ae7ba3feb38210b2489b *R/censo_municipal.R
+56b77b3909e3e665812ffabf2595507e *R/catalogo_inegi.R
+680155fc6d50e715099cba0dfd236939 *R/censo_municipal.R
 14a57a6ade2dbd2f45a22bc79075af0c *R/censo_poblacion_ageb.R
 5afd0a556f2ec5931d0f2c3244b6c418 *R/censo_poblacion_iter.R
 242de7ba5e4f14dcfe319824accbc04c *R/censo_poblacion_muestra.R
@@ -11,9 +11,9 @@ e722e9b9712d6c1c5e5bb728dcd80786 *R/censo_poblacion_urbano.R
 e0ba4d6742cf6eac8f54da10ac53baac *R/enigh_nuevaconstruccion.R
 2e051871d3e1b1416c9e41390a4fdde4 *R/enoe.R
 906b8f374d9c64bdb69cccd75e10bab0 *R/sig_caminos_descarga.R
-bb127cafd61486b69a009295df068fc5 *R/sig_caminos_extrae.R
-8038cfaf25b22d2cd82706ad88f75e1f *R/sig_marcogeo.R
-cb3354ad5f0a6bc9781e95205cd5bc94 *README.md
+8587844d7283e6ae17f3bf625a45a452 *R/sig_caminos_extrae.R
+2651f62becd2c135344c46dca46fab1f *R/sig_marcogeo.R
+fa5752f26951375f1319fdb9609c2e5f *README.md
 691d819b7ce92750568519ab5f693252 *build/vignette.rds
 1de49bcc8ce24232f747b654c969b511 *inst/doc/importinegi.R
 9c30e87d5375f723c32f35d8d860133d *inst/doc/importinegi.Rmd
